@@ -1,0 +1,38 @@
+{
+    "name": "psychology-tools/pubmed-cite",
+    "description": "A library for formatting and fetching citations to pubmed articles from the eFetch API.",
+    "keywords": [
+        "pubmed",
+        "cite",
+        "citation",
+        "pmid",
+        "api"
+    ],
+    "homepage": "https://github.com/psychology-tools/pubmed-cite",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Psychology Tools",
+            "email": "contact@psychology-tools.com",
+            "homepage": "https://psychology-tools.com/about",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+         "php": ">7.1.3",
+         "symfony/http-client": "^5.0"
+    },
+    "autoload": {
+         "psr-4": {
+               "PsychologyTools\\PubmedCite\\": "src/"
+         }
+     },
+     "minimum-stability": "stable",
+     "extra": {
+          "branch-alias": {
+              "master-dev": "1.1-dev",
+              "stable": "1.1-dev"
+           }
+      }
+}
